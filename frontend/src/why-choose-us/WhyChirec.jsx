@@ -80,8 +80,7 @@ export const WhyChirec = () => {
         </div>
         <div>
             <div>
-                <div className="relative w-200 m-20 mx-auto">
-                    {/* Image Display */}
+                <div className="w-200 m-20 mx-auto">
                     <div className="overflow-hidden rounded-lg shadow-lg flex m-5">
                         <img
                             src={images[currentIndex]}
@@ -90,8 +89,6 @@ export const WhyChirec = () => {
                         />
                         <p className="m-10">{texts[currentIndex]}</p>
                     </div>
-
-                    {/* Navigation Buttons */}
                     <button
                         onClick={prevImage}
                         className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-opacity-50 text-blue-500 p-2 rounded-full focus:outline-none hover:bg-opacity-75"
